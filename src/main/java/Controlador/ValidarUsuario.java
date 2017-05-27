@@ -48,7 +48,7 @@ public class ValidarUsuario extends HttpServlet {
             rd.forward(request, response);
         } else {
             request.setAttribute("Failed", "NOK");
-            RequestDispatcher rd = request.getRequestDispatcher("indexU.jsp");
+            RequestDispatcher rd = request.getRequestDispatcher("index.jsp");
             rd.forward(request, response);
         }
 
